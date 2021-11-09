@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E446F808273AE42E00A5CEC7 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E446F807273AE42E00A5CEC7 /* RegisterVC.swift */; };
+		E446F80A273B005B00A5CEC7 /* RegisterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E446F809273B005B00A5CEC7 /* RegisterScreen.swift */; };
 		E483639627316AB600288C45 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E483639527316AB600288C45 /* LoginScreen.swift */; };
 		E4A6E91B272036DD002B1ED5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A6E91A272036DD002B1ED5 /* AppDelegate.swift */; };
 		E4A6E91D272036DD002B1ED5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A6E91C272036DD002B1ED5 /* SceneDelegate.swift */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		E446F807273AE42E00A5CEC7 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		E446F809273B005B00A5CEC7 /* RegisterScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterScreen.swift; sourceTree = "<group>"; };
 		E483639527316AB600288C45 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
 		E4A6E917272036DD002B1ED5 /* LoginViewCode-Curso.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LoginViewCode-Curso.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4A6E91A272036DD002B1ED5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +53,7 @@
 		E446F803273AE3B200A5CEC7 /* Screen */ = {
 			isa = PBXGroup;
 			children = (
+				E446F809273B005B00A5CEC7 /* RegisterScreen.swift */,
 			);
 			path = Screen;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E446F80A273B005B00A5CEC7 /* RegisterScreen.swift in Sources */,
 				E4A6E91F272036DD002B1ED5 /* LoginVC.swift in Sources */,
 				E4A6E91B272036DD002B1ED5 /* AppDelegate.swift in Sources */,
 				E483639627316AB600288C45 /* LoginScreen.swift in Sources */,
