@@ -8,7 +8,7 @@
 import UIKit
 
 //Criar um protocol para fazer nossa ViewController ser nossa assinante
-protocol LoginScreenProtocol: class {
+protocol LoginScreenProtocol: AnyObject {
     func actionLoginButton()
     func actionRegisterButton()
 }
