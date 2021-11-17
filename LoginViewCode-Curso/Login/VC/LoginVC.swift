@@ -42,8 +42,18 @@ extension LoginVC: LoginScreenProtocol {
 }
 
 extension LoginVC: UITextFieldDelegate {
+    
+    func textFieldDidBeginEditing(_ textField: UITextField) {
+        print("textFieldDidBeginEditing")
+    }
+    
+    func textFieldDidEndEditing(_ textField: UITextField) {
+        self.loginScreen?.validaTextFields()
+    }
+    
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         textField.resignFirstResponder() //faz o teclado esconder após o Return
+        return true
     }
 }
 
